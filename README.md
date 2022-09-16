@@ -1,7 +1,7 @@
 Rendu : https://sximenez.github.io/DWWM-FRONT-TP_MODULOX_ORIGINAL/
 
 Les objectifs : 
-1. A partir d'une maquette en pdf, réaliser une page d'accueil avec HTLM/CSS (prototype)
+1. A partir d'une maquette en pdf, réaliser une page d'accueil avec HTML/CSS (prototype)
 2. Faire un menu hamburger sur version mobile/tablette en introduisant du JS
 3. Faire éventuellement le TP en mode projet client (analyse du besoin, recherche, modèle de référence, wireframe, maquette, prototype)
 
