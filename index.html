@@ -15,7 +15,7 @@
 
 <style>
 
-  /*---------------------------- DOC FONT FAMILIES ----------------------------*/
+  /* DOC FONT FAMILIES */
   .font-primary {
     font-family: 'Roboto Slab', sans-serif;
   }
@@ -29,31 +29,31 @@
 </head>
 
 <body class="font-secondary min-w-min lg:relative lg:-top-20 lg:-mb-20">
-  <!---------------------------- TOP ---------------------------->
+  <!-- TOP -->
   <header>
 
-    <!---------------------------- TOP NAV ---------------------------->
+    <!-- TOP NAV -->
     <nav id="top-nav" class="flex flex-row align-items justify-between h-20 lg:h-20 mx-4 md:mx-10 lg:mx-20 xl:mx-28 2xl:mx-72 lg:relative lg:top-20">
 
       <div id="top-logo" class="flex align-items">
 
-        <img width="125px" class="object-contain" src="images/cropped-logo_modulox.png" alt="Logo de la société Modulox">
+        <img width="125" class="object-contain" src="images/cropped-logo_modulox.png" alt="Logo de la société Modulox">
 
       </div>
 
       <div id="top-menu" class="w-full my-auto uppercase list-none hidden lg:block text-black lg:text-white lg:text-sm">
 
-        <div class="flex flex-row justify-end gap-x-6 float-right">
+        <ul class="flex flex-row justify-end gap-x-6 float-right">
         
-          <a href="" class="hover:underline"><li>Accueil</li></a>
-          <a href="" class="hover:underline"><li>Boutique</li></a>
-          <a href="" class="hover:underline"><li>A propos</li></a>
-          <a href="" class="hover:underline"><li>Actualités</li></a>
-          <a href="" class="hover:underline"><li>Mon compte</li></a>
-          <a href="" class="hover:underline"><li>Panier</li></a>
-          <a href="" class="hover:underline"><li>Contact</li></a>
+          <li><a href="" class="hover:underline">Accueil</a></li>
+          <li><a href="" class="hover:underline">Boutique</a></li>
+          <li><a href="" class="hover:underline">A propos</a></li>
+          <li><a href="" class="hover:underline">Actualités</a></li>
+          <li><a href="" class="hover:underline">Mon compte</a></li>
+          <li><a href="" class="hover:underline">Panier</a></li>
+          <li><a href="" class="hover:underline">Contact</a></li>
 
-        </div>
+        </ul>
 
       </div>
 
@@ -65,7 +65,7 @@
 
     </nav>
 
-    <!---------------------------- TOP BACKGROUND IMAGE ---------------------------->
+    <!-- TOP BACKGROUND IMAGE -->
     
     <div style="background-image: url(images/banner.jpg);" class="text-white px-4 md:px-0 pt-14 pb-24 md:pt-32 md:pb-44 lg:py-48 bg-cover bg-center">
 
@@ -73,10 +73,7 @@
 
         <h1 class="text-6xl lg:text-5xl font-semibold">Panacotron M1000 GT</h1>
         <h2 class="text-xl font-base pt-2 pb-8">LA référence du robot de surveillance</h2>
-
-        <a href="#">
-          <button class="bg-cyan-400 hover:bg-blue-500 py-4 px-8 rounded-" type="submit">En savoir plus</button>
-        </a>
+        <button class="bg-cyan-400 hover:bg-blue-500 py-4 px-8 rounded-" type="button"><a href="#">En savoir plus</a></button>
 
       </div>
 
@@ -101,7 +98,7 @@
 
   </header>
 
-  <!---------------------------- TOP ABOUT ---------------------------->
+  <!-- TOP ABOUT -->
   <div class="bg-black h-auto text-white flex items-center">
 
     <div class="mx-4 md:mx-10 lg:mx-20 xl:mx-28 2xl:mx-72 py-14">
@@ -115,13 +112,13 @@
 
   </div>
 
-  <!---------------------------- SECTION PRODUCTS ---------------------------->
+  <!-- SECTION PRODUCTS -->
   <section class="bg-stone-100 text-stone-800">
     
-    <!---------------------------- MARGIN ---------------------------->
+    <!-- MARGIN -->
     <div class="mx-4 md:mx-4 lg:mx-20 xl:mx-28 2xl:mx-72 pt-14 lg:pt-20 lg:pb-10">
     
-      <!---------------------------- PRODUCTS ---------------------------->
+      <!-- PRODUCTS -->
       <div class="flex justify-center font-semibold pb-16 mb-10 text-center">
       
         <div class="my-auto mx-4 font-primary">
@@ -135,16 +132,16 @@
       
       <div class="flex flex-col-reverse md:flex-row-reverse justify-center items-center">
 
-        <!---------------------------- PRODUCT 1 ---------------------------->
-        <div id="product-card" class="bg-white w-3/4 flex flex-col items-center pb-6 mb-20 md:mt-0 md:mx-4 lg:ml-0 border border-solid border-stone-300">
+        <!-- PRODUCT 1 -->
+        <div class="bg-white w-3/4 flex flex-col items-center pb-6 mb-20 md:mt-0 md:mx-4 lg:ml-0 border border-solid border-stone-300">
 
-          <div id="product-card-top" class="justify-center flex items-center hover:scale-110 transition ease-in delay-75">
+          <div class="justify-center flex items-center hover:scale-110 transition ease-in delay-75">
 
             <img class="w-full md:w-3/4 object-cover shadow-xl relative bottom-8 bg-white border border-solid border-stone-300" src="images/modulox-m1000-gt-230x288.png" alt="Modèle Modulox numéro 1">
 
           </div>
 
-          <div id="product-card-bottom" class="text-center">
+          <div class="text-center">
 
             <p class="uppercase text-sm text-red-500">Robots</p>
             <p class="text-xl md:text-2xl font-bold py-6 font-primary"><span class="">Panacotron</span> M1000<br>GT</p>
@@ -160,16 +157,16 @@
 
         </div>
         
-        <!---------------------------- PRODUCT 2 ---------------------------->
-        <div id="product-card" class="bg-white w-3/4 flex flex-col items-center pb-6 mb-20 md:mt-0 md:mx-4 lg:ml-0 border border-solid border-stone-300">
+        <!-- PRODUCT 2 -->
+        <div class="bg-white w-3/4 flex flex-col items-center pb-6 mb-20 md:mt-0 md:mx-4 lg:ml-0 border border-solid border-stone-300">
 
-          <div id="product-card-top" class="justify-center flex items-center hover:scale-110 transition ease-in delay-75">
+          <div class="justify-center flex items-center hover:scale-110 transition ease-in delay-75">
 
             <img class="w-full md:w-3/4 object-cover shadow-xl relative bottom-8 bg-white border border-solid border-stone-300" src="images/modulox-m2000-st-230x288.png" alt="Modèle Modulox numéro 1">
 
           </div>
 
-          <div id="product-card-bottom" class="text-center">
+          <div class="text-center">
 
             <p class="uppercase text-sm text-cyan-500">Robots</p>
             <p class="text-xl md:text-2xl font-bold py-6 font-primary"><span class="">Panacotron</span> M2000<br>ST</p>
@@ -185,16 +182,16 @@
 
         </div>
         
-        <!---------------------------- PRODUCT 3 ---------------------------->
-        <div id="product-card" class="bg-white w-3/4 flex flex-col items-center pb-6 mb-20 md:mt-0 md:mx-4 md:mb-20 lg:ml-0 border border-solid border-stone-300">
+        <!-- PRODUCT 3 -->
+        <div class="bg-white w-3/4 flex flex-col items-center pb-6 mb-20 md:mt-0 md:mx-4 md:mb-20 lg:ml-0 border border-solid border-stone-300">
 
-          <div id="product-card-top" class="justify-center flex items-center hover:scale-110 transition ease-in delay-75">
+          <div class="justify-center flex items-center hover:scale-110 transition ease-in delay-75">
 
             <img class="w-full md:w-3/4 object-cover shadow-xl relative bottom-8 bg-white border border-solid border-stone-300" src="images/modulox-m3000-pan-230x288.png" alt="Modèle Modulox numéro 1">
 
           </div>
 
-          <div id="product-card-bottom" class="text-center">
+          <div class="text-center">
 
             <p class="uppercase text-sm text-purple-500">Robots</p>
             <p class="text-xl md:text-2xl font-bold py-6 font-primary"><span class="">Panacotron</span> M3000<br>PAN</p>
@@ -216,7 +213,7 @@
 
   </section>
 
-  <!---------------------------- SECTION NEWSLETTER ---------------------------->
+  <!-- SECTION NEWSLETTER -->
   <section>
 
     <div class="flex font-normal relative h-96">
@@ -232,10 +229,10 @@
 
             <div id="opt-in">
 
-              <form class="pb-4" action="">
+              <form class="pb-4" action="#">
                 
-                <input class="w-full md:w-1/2 py-2 rounded text-lg pl-4" type="text" placeholder="Votre email">
-                <input type="submit" name="" id="" class="uppercase text-white bg-blue-700 hover:bg-blue-500 hover:border-2 hover:border-solid hover:border-blue-500 mt-4 py-2 px-6 rounded md:ml-2 md:border-2 md:border-solid md:border-blue-700" value="S'abonner">
+                <input class="w-full md:w-1/2 py-2 rounded text-lg pl-4" type="email" name="email" id="email" placeholder="Votre email">
+                <input type="button" class="uppercase text-white bg-blue-700 hover:bg-blue-500 hover:border-2 hover:border-solid hover:border-blue-500 mt-4 py-2 px-6 rounded md:ml-2 md:border-2 md:border-solid md:border-blue-700" value="S'abonner">
 
               </form>
 
@@ -247,7 +244,7 @@
 
     </div>
 
-    <!---------------------------- MARGIN ---------------------------->
+    <!-- MARGIN -->
     <div class="mx-4 md:mx-10 lg:mx-20 xl:mx-28 2xl:mx-72">
 
       <div class="flex font-semibold h-56 text-center mx-4">
@@ -261,10 +258,10 @@
 
       </div>
 
-      <!---------------------------- ARTICLES ---------------------------->
+      <!-- ARTICLES -->
       <div class="flex flex-col md:grid md:grid-cols-2 md:grid-rows-2 md:gap-6 lg:grid-cols-3 lg:grid-rows-none lg:pb-20">
 
-        <!---------------------------- ARTICLES 1 ---------------------------->
+        <!-- ARTICLES 1 -->
         <div id="product-card" class="flex flex-col float-left pb-10 md:pb-10">
 
           <div id="product-card-top" class="flex items-center pb-6">
@@ -285,7 +282,7 @@
 
         </div>
         
-        <!---------------------------- ARTICLES 2 ---------------------------->
+        <!-- ARTICLES 2 -->
         <div id="product-card" class="flex flex-col float-left pb-10 md:pb-10">
 
           <div id="product-card-top" class="flex items-center pb-6">
@@ -306,7 +303,7 @@
 
         </div>
         
-        <!---------------------------- ARTICLES 3 ---------------------------->
+        <!-- ARTICLES 3 -->
         <div id="product-card" class="flex flex-col float-left pb-10 md:pb-10">
 
           <div id="product-card-top" class="flex items-center pb-6">
@@ -333,7 +330,7 @@
 
   </section>
 
-  <!---------------------------- SECTION CONTACT ---------------------------->
+  <!-- SECTION CONTACT -->
   <section>
 
     <div class="flex font-bold relative">
@@ -355,10 +352,10 @@
 
           <h4 class="text-2xl md:text-3xl pb-2">Suivez-nous</h4>
 
-          <!---------------------------- SOCIAL ---------------------------->
+          <!-- SOCIAL -->
           <div id="social-icons" class="flex flex-row justify-center md:justify-start py-8 lg:py-16 lg:ml-2 gap-x-10 lg:gap-x-20">
 
-            <a href="" class="hover:scale-110 transition ease-in delay-75"></q><i class="fa-brands fa-facebook fa-2xl lg:scale-150"></i></a>
+            <a href="" class="hover:scale-110 transition ease-in delay-75"><i class="fa-brands fa-facebook fa-2xl lg:scale-150"></i></a>
             <a href="" class="hover:scale-110 transition ease-in delay-75"><i class="fa-brands fa-instagram fa-2xl lg:scale-150"></i></a>
             <a href="" class="hover:scale-110 transition ease-in delay-75"><i class="fa-brands fa-twitter fa-2xl lg:scale-150"></i></a>
             <a href="" class="hover:scale-110 transition ease-in delay-75"><i class="fa-brands fa-youtube fa-2xl lg:scale-150"></i></a>
@@ -371,10 +368,10 @@
         
           <h4 class="text-2xl md:text-3xl bg-cyan-500 py-4 pl-4 w-72 md:w-5/6 mx-auto rounded shadow-xl relative top-8 lg:-top-8 font-primary">Contactez-nous</h4>
 
-          <!---------------------------- CONTACT FORM ---------------------------->
+          <!-- CONTACT FORM -->
           <div id="contact-form" class="bg-white pt-16 p-8 mb-14 lg:-mt-16 rounded-lg">
 
-            <form class="pb-4 font-normal" action="">
+            <form class="pb-4 font-normal" action="#">
               
               <input class="w-full py-6 border-b border-solid border-black" type="text" placeholder="Votre nom">
               <input class="w-full py-6 border-b border-solid border-black" type="text" placeholder="Votre email (obligatoire)" required>
@@ -402,21 +399,21 @@
 
   </section>
 
-  <!---------------------------- FOOTER ---------------------------->
+  <!-- FOOTER -->
   <footer class="bg-stone-800 h-44 py-6 md:px-20 flex flex-col justify-center lg:items-start text-sm">
     
     <div class="mx-4 xl:mx-10">
     
       <ul class="flex flex-row uppercase text-white items-center justify-center gap-y-2 gap-x-4 flex-wrap">
         
-        <a href="" class="hover:underline"><li>Accueil</li></a>
-        <a href="" class="hover:underline"><li>Boutique</li></a>
-        <a href="" class="hover:underline"><li>A propos</li></a>
-        <a href="" class="hover:underline"><li>Actualités</li></a>
-        <a href="" class="hover:underline"><li>Panier</li></a>
-        <a href="" class="hover:underline"><li>Mon compte</li></a>
-        <a href="" class="hover:underline"><li>Politique de confidentialité</li></a>
-        <a href="" class="hover:underline"><li>Contact</li></a>
+        <li><a href="" class="hover:underline">Accueil</a></li>
+        <li><a href="" class="hover:underline">Boutique</a></li>
+        <li><a href="" class="hover:underline">A propos</a></li>
+        <li><a href="" class="hover:underline">Actualités</a></li>
+        <li><a href="" class="hover:underline">Panier</a></li>
+        <li><a href="" class="hover:underline">Mon compte</a></li>
+        <li><a href="" class="hover:underline">Politique de confidentialité</a></li>
+        <li><a href="" class="hover:underline">Contact</a></li>
 
       </ul>
 
